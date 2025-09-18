@@ -175,7 +175,7 @@ export const QUERY_MUTATION_CREATE_COMMENT = gql(/* GraphQL */ `
 				parent: $parent
 				content: $content
 				commentOn: $commentOn
-				// approved: $approved
+				approved: $approved
 				authorEmail: $authorEmail
 				authorUrl: $authorUrl
 			}
